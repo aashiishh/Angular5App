@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myAngular5App';
+  inputvariable = "hello i am your parent";
+  constructor()
+  {
+     console.log("Hey i am component");
+     
+  }
+
+  getData(value)
+  {
+    console.log(value);
+  }
+
 }
